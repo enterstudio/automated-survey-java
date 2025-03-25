@@ -47,8 +47,7 @@
 						</goals>
 						<configuration>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>com.twilio.survey.Server</mainClass>
 								</transformer>
 							</transformers>
@@ -68,7 +67,7 @@
 		<dependency>
 			<groupId>com.twilio.sdk</groupId>
 			<artifactId>twilio-java-sdk</artifactId>
-			<version>4.4.1</version>
+			<version>5.4.0-edge</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mongodb</groupId>
